@@ -13,6 +13,8 @@ namespace PreEntrega.ADO.NET
         //La conexion a la base de datos
         public static string ConnectionString = "Data Source=LAPTOP-OH2KCBPB;Initial Catalog=SistemaGestion;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
+
+        //Obtener venta con el id
         public static Venta ObtenerVenta(long id)
         {
             Venta venta = new Venta();
